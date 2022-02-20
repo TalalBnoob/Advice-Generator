@@ -1,1 +1,144 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #202632;
+  color: #cee3e9;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #323a49;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 35rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 20px 30px 10px 15px rgba(24, 28, 37, 0.2);
+          box-shadow: 20px 30px 10px 15px rgba(24, 28, 37, 0.2);
+}
+
+.card-title {
+  margin-top: 3rem;
+  letter-spacing: 4px;
+  color: #52ffa8;
+  font-size: x-small;
+}
+
+.card-body {
+  margin: 1rem auto;
+  width: 80%;
+  text-align: center;
+  font-size: 28px;
+}
+
+.card-dev {
+  background-image: url(../../images/pattern-divider-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 20px;
+  margin-top: 1rem;
+  margin-bottom: 3.8rem;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: -35px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin-top: 2rem;
+  border: none;
+  background-color: #52ffa8;
+}
+
+.card-btn:hover {
+  background: #52ffa8;
+  -webkit-box-shadow: 0 0 30px #52ffa8;
+          box-shadow: 0 0 30px #52ffa8;
+}
+
+.card-btn > img {
+  margin: 15px auto;
+  margin-top: 17px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 90%;
+    -webkit-box-shadow: 25px 40px 10px 20px rgba(24, 28, 37, 0.2);
+            box-shadow: 25px 40px 10px 20px rgba(24, 28, 37, 0.2);
+  }
+  .card-title {
+    margin-top: 2rem;
+    font-size: xx-small;
+  }
+  .card-body {
+    font-size: 22px;
+    margin: 0.6rem auto;
+  }
+  .card-dev {
+    background-image: url(../../images/pattern-divider-mobile.svg);
+    height: 16px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .card-btn {
+    height: 60px;
+    width: 60px;
+  }
+  .card-btn:hover {
+    background: #52ffa8;
+    -webkit-box-shadow: 0 0 30px #52ffa8;
+            box-shadow: 0 0 30px #52ffa8;
+  }
+}
+/*# sourceMappingURL=main.css.map */
