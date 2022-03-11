@@ -61,7 +61,7 @@ body {
 }
 
 .card-dev {
-  background-image: url(../../images/pattern-divider-desktop.svg);
+  background-image: url("/images/pattern-divider-desktop.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ footer {
     margin: 0.6rem auto;
   }
   .card-dev {
-    background-image: url(../../images/pattern-divider-mobile.svg);
+    background-image: url("/images/pattern-divider-mobile.svg");
     height: 16px;
     margin-top: 1rem;
     margin-bottom: 3rem;

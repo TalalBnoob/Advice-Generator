@@ -38,10 +38,6 @@ body {
 	}
 
 	&-dev {
-		background-image: url(../../images/pattern-divider-desktop.svg);
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
 		width: 80%;
 		height: 20px;
 		margin-top: 1rem;
@@ -95,7 +91,6 @@ footer {
 		}
 
 		&-dev {
-			background-image: url(../../images/pattern-divider-mobile.svg);
 			height: 16px;
 			margin-top: 1rem;
 			margin-bottom: 3rem;
